@@ -10,4 +10,9 @@ for (let i = 1; i <= 5; i++) {
         pattern += '* ';
     }
     console.log(pattern);
+};
+for(let i=0;i<=number.length;i++){
+    if(number[i]%2!==0){
+        console.log(number[i],"is a oddi number")
+    }
 }
